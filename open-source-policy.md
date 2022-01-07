@@ -1,18 +1,3 @@
----
-**NHS Open Source Policy will become officially available in Summer 2022**
-
-This document is the home for all associated policy development, and will be updated frequently in response to subject matter, expert feedback and public comment. It should be treated as a live and living record. Even after policy release, the intention is that this document continues to change to inform future updates.
-
-Contributors should be aware that this document is FOIable, effectively a public archive, and comments should be treated as permanent. Please ensure that you follow the [NHS Values](https://www.hee.nhs.uk/about/our-values/nhs-constitutional-values-hub-0) at all times.
-
-Contributors wishing to comment or suggest changes outside of Github can do by writing to: [andrew.harding@nhsx.nhs.uk](mailto:andrew.harding@nhsx.nhs.uk)
-
-Templates for many of the requirements mentioned in this document will be made available in this repository over the next 12 months.
-
----
-
-  
-
 ## Executive summary
 
 This document informs why, how and when staff across the NHS should openly publish their programming code. It is aimed largely at CIOs and technical programme leads (especially sections 1, 2, and 3), teams developing new code in house (sections 3 and 4), and those commissioning new work from suppliers (3, 4, and 5). It is a living document, which anyone can comment upon or suggest changes to through Github or by email. Every year from Summer 2022, this document will be used to release or update official policy. Comments received after April of that year will form part of the following year’s update.
