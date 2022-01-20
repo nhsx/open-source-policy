@@ -68,7 +68,7 @@ By default, all new code should be open source. But what does this mean, and wha
 
 * **Closed** when it’s impossible to separate code from disclosive or secure information about patients, staff, systems, or infrastructure, or when required by policy, business, or statistical demands
 
-* **Secured** when a specific legal requirement or larger-scale system integrity prevents its publication
+* **Secured** when a specific and explicit legal requirement or larger-scale system integrity prevents its publication
 
 **New projects should start at the top of this list, and justify their exception downwards as part of the NHS digital and technology approval process** under the follow-up questions to “Have you evaluated potential open-source options?”. The rules above may be applied at the project level or, where it is sensible to do so, separately for individual components or packages.
 
@@ -86,19 +86,19 @@ Closed code may be held in private repositories or on platforms that are otherwi
 
 * Keys, credentials and secrets for access to secure data or systems
 
-* Code relevant to unreleased policy, business decisions, or statistical publications
+* Code relevant to unreleased: policy, business decisions, or statistical publications
 
 * Algorithms used to detect fraud or that are otherwise only effective when kept private
 
-In the first case, projects should strive to separate keys, credentials and secrets (Closed) from the rest of their code (Open) at all times, storing them separately and only accessible by authorised staff. It must be possible for them to be easily and thoroughly changed, rotated or revoked.
+In the first case, projects must never have keys, credentials and secrets (always Closed) in source code (Open), storing them separately and only accessible by authorised staff. It must be possible for them to be easily and thoroughly changed, rotated or revoked.
 
-In the second case, projects must still develop Closed code as if it’s already open, following good development and security practices. Project managers should decide on when code will be made open, which (by default), should be six months after release or less. Once opened, projects should remain so.
+In the second case, projects must still develop Closed code as if it’s already open, following good development and security practices. Project managers should decide on when code will be made open, which (by default), should be six months after release (in the case of code relevant to official statistics) or less. Once opened, projects should remain so. If specific parts of a project must be kept from public view due to legislative requirement (as with changes to the formulation of some official statistics) they can be forked into a private instance and merged back into the public repo at the earliest opportunity.
 
 In all three cases (and for all four categories of code), projects should still follow best practice, common standards, and broader guidance.
 
 ### Secured
 
-Some code cannot be opened at any time, almost always due to a specific legal requirement. However, keeping code closed is not enough to ensure that it is secure, and truly confidential code is highly likely to require [defense in depth](https://en.wikipedia.org/wiki/Defense_in_depth_(computing)) to fully mitigate the risk of legal or systemic repercussions in the case of a breach. These strategies include but are not limited to firewalls, administrative controls, encryption, multi-factor authentication and physical security protocols.
+Some code cannot be opened at any time, almost always due to a specific and explicit legal requirement. However, keeping code closed is not enough to ensure that it is secure, and truly confidential code is highly likely to require [defense in depth](https://en.wikipedia.org/wiki/Defense_in_depth_(computing)) to fully mitigate the risk of legal or systemic repercussions in the case of a breach. These strategies include but are not limited to firewalls, administrative controls, encryption, multi-factor authentication and physical security protocols.
 
 
 ## 4. How to open source code
@@ -162,7 +162,7 @@ When selecting licences, projects should check that they respect the terms of an
 
 Some projects (like [QCovid](https://github.com/QCovid)) fall under the remit of health and social care relevant regulators, such as the [MHRA](https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency), [HRA](https://www.hra.nhs.uk/), or [CQC](https://www.cqc.org.uk/). Under specific circumstances code should be accompanied by a legal notice that describes that coverage. Including the relevant text in a NOTICE file ensures that any copies made under an APLv2 licence preserve that text.
 
-All digital health tools entering into the NHS and social care must be assured against the [Digital Technology Assessment Criteria](https://www.nhsx.nhs.uk/key-tools-and-info/digital-technology-assessment-criteria-dtac/) (DTAC), which includes assurance questions on clinical safety and medical devices. When software is part of a new commission or project, outside of its original organisation, the new project must also be assessed. **Legal caveats and notices must be included whenever software could introduce risk or harm to patients or the intended users of the software**, whether it is its first application, or its fiftieth**. **This may include, but is not limited to, applications where software is intended for [clinical use](https://www.cqc.org.uk/guidance-providers/registration/regulated-activities), counts as a [medical device](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/999908/Software_flow_chart_Ed_1-08b-IVD.pdf), or requires [HRA Approval](https://www.hra.nhs.uk/approvals-amendments/what-approvals-do-i-need/hra-approval/). In these cases it is important to abide by the requirements of the appropriate authority and include text that clearly states the relevant regulatory process: and that all further applications of the code must satisfy the same requirements. When projects are uncertain about their regulatory needs (for instance, when they fall under the remit of multiple bodies), the text of the relevant regulations, the [Multi Agency Advisory Service](https://www.nhsx.nhs.uk/ai-lab/ai-lab-programmes/regulating-the-ai-ecosystem/the-multi-agency-advice-service-maas/), the[ NICE Evidence Standards Framework](https://www.nice.org.uk/about/what-we-do/our-programmes/evidence-standards-framework-for-digital-health-technologies) and the regulatory bodies themselves can all act as a guide.
+All digital health tools entering into the NHS and social care must be assured against the [Digital Technology Assessment Criteria](https://www.nhsx.nhs.uk/key-tools-and-info/digital-technology-assessment-criteria-dtac/) (DTAC), which includes assurance questions on clinical safety and medical devices. When software is part of a new commission or project, outside of its original organisation, the new project must also be assessed. **Legal caveats and notices must be included whenever software could introduce risk or harm to patients or the intended users of the software**, whether it is its first application, or its fiftieth. This may include, but is not limited to, applications where software is intended for [clinical use](https://www.cqc.org.uk/guidance-providers/registration/regulated-activities), counts as a [medical device](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/999908/Software_flow_chart_Ed_1-08b-IVD.pdf), or requires [HRA Approval](https://www.hra.nhs.uk/approvals-amendments/what-approvals-do-i-need/hra-approval/). In these cases it is important to abide by the requirements of the appropriate authority and include text that clearly states the relevant regulatory process: and that all further applications of the code must satisfy the same requirements. When projects are uncertain about their regulatory needs (for instance, when they fall under the remit of multiple bodies), the text of the relevant regulations, the [Multi Agency Advisory Service](https://www.nhsx.nhs.uk/ai-lab/ai-lab-programmes/regulating-the-ai-ecosystem/the-multi-agency-advice-service-maas/), the[ NICE Evidence Standards Framework](https://www.nice.org.uk/about/what-we-do/our-programmes/evidence-standards-framework-for-digital-health-technologies) and the regulatory bodies themselves can all act as a guide.
 
 In the case of a Class I Medical Device, appropriate text may read:
 
@@ -269,7 +269,7 @@ If a vulnerability is identified in your project you should follow general pract
 
 * Deal with security vulnerabilities quickly
 
-Keys, credentials and secrets that allow for access to data or parts of a system otherwise Secured must be kept Closed, and part of a system that allows them to be changed, rotated or revoked easily and thoroughly.
+Keys, credentials and secrets that allow for access to data or parts of a system otherwise Secured must be kept Closed and seperate from code, as part of a system that allows them to be changed, rotated or revoked easily and thoroughly.
 
 The [Central Digital and Data Office](https://www.gov.uk/government/organisations/central-digital-and-data-office) suggests the following timelines for dealing with vulnerabilities:
 
@@ -297,7 +297,7 @@ There are four steps to ensuring that your project’s version and commit histor
 
 Projects have finite life spans and may go through periods of substantial activity before being retired, deprecated or archived. Most shared repositories will require regular maintenance and some updating between the two to ensure that component versions and data connections are current. Where projects are coded in the open, part of this maintenance process may involve a branching strategy (for features or releases) to prevent multiple conflicting versions of the code.
 
-README files should clearly indicate if a decision has been made to cease maintenance of a project, and the date from which support will end.  
+README files should clearly indicate if a decision has been made to cease maintenance of a project, and the date from which support will end. If project leads are aware that required components or other dependencies are out of date or no longer function at that point, they may want to include an appropriate caution in the relevant part of the README. 
   
 
 ## 5. Working with the NHS
@@ -362,4 +362,4 @@ README files should clearly indicate if a decision has been made to cease mainte
 | **An internal code review has been completed** ||
 | Has a colleague reviewed the code for sensitive data content and security vulnerabilities? |**Mandatory** action|  
 
-*The documentation is [© Crown copyright](http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/) and available under the terms of the [Open Government 3.0 licence](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)*.
+*This documentation is [© Crown copyright](http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/) and available under the terms of the [Open Government 3.0 licence](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)*.
