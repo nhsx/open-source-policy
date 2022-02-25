@@ -127,11 +127,13 @@ The rest of this section details processes and practices that should be in place
 
 **All projects should be accompanied by an informative README file** in plain text, [Markdown](https://commonmark.org/help/), or another easily readable format. This should cover:
 
-* A brief description of the project, who it’s for and what it does
+* A brief description of the project, who it’s for and what it does. This should include its intended purpose when implemented, its operating environment (or clinical use, if any), and intended users.
 
-* The project’s development status
+* The project’s development status, and whether the code is actively maintained (or if not, when maintenance stopped).
 
 * A primary point of contact (and means of doing so, e.g. an email address)
+
+* A brief description of any data the project relies upon or produces
 
 * Any necessary programming components or other prerequisites (modules, toolboxes, specific APIs, etc.)
 
@@ -140,8 +142,6 @@ The rest of this section details processes and practices that should be in place
 * The relevant licence that governs its distribution and use
 
 * Any other legal or regulatory requirements
-
-* Whether the code is actively maintained (and if not, when maintenance stopped).
 
 Contribution and Community Guidelines (see below) may be included in the README or in separate documents in a project’s top level directory.
 
@@ -162,7 +162,7 @@ When selecting licences, projects should check that they respect the terms of an
 
 Some projects (like [QCovid](https://github.com/QCovid)) fall under the remit of health and social care relevant regulators, such as the [MHRA](https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency), [HRA](https://www.hra.nhs.uk/), or [CQC](https://www.cqc.org.uk/). Under specific circumstances code should be accompanied by a legal notice that describes that coverage. Including the relevant text in a NOTICE file ensures that any copies made under an APLv2 licence preserve that text.
 
-All digital health tools entering into the NHS and social care must be assured against the [Digital Technology Assessment Criteria](https://www.nhsx.nhs.uk/key-tools-and-info/digital-technology-assessment-criteria-dtac/) (DTAC), which includes assurance questions on clinical safety and medical devices. When software is part of a new commission or project, outside of its original organisation, the new project must also be assessed. **Legal caveats and notices must be included whenever software could introduce risk or harm to patients or the intended users of the software**, whether it is its first application, or its fiftieth. This may include, but is not limited to, applications where software is intended for [clinical use](https://www.cqc.org.uk/guidance-providers/registration/regulated-activities), counts as a [medical device](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/999908/Software_flow_chart_Ed_1-08b-IVD.pdf), or requires [HRA Approval](https://www.hra.nhs.uk/approvals-amendments/what-approvals-do-i-need/hra-approval/). In these cases it is important to abide by the requirements of the appropriate authority and include text that clearly states the relevant regulatory process: and that all further applications of the code must satisfy the same requirements. When projects are uncertain about their regulatory needs (for instance, when they fall under the remit of multiple bodies), the text of the relevant regulations, the [Multi Agency Advisory Service](https://www.nhsx.nhs.uk/ai-lab/ai-lab-programmes/regulating-the-ai-ecosystem/the-multi-agency-advice-service-maas/), the[ NICE Evidence Standards Framework](https://www.nice.org.uk/about/what-we-do/our-programmes/evidence-standards-framework-for-digital-health-technologies) and the regulatory bodies themselves can all act as a guide.
+All digital health tools entering into the NHS and social care must be assured against the [Digital Technology Assessment Criteria](https://www.nhsx.nhs.uk/key-tools-and-info/digital-technology-assessment-criteria-dtac/) (DTAC), which includes assurance questions on clinical safety and medical devices. When software is part of a new commission or project, outside of its original organisation, the new project must also be assessed. **Legal caveats and notices must be included whenever software could introduce risk or harm to patients or the intended users of the software**, whether it is its first application, or its fiftieth. This may include, but is not limited to, applications where software is intended for [clinical use](https://www.cqc.org.uk/guidance-providers/registration/regulated-activities), counts as a [medical device](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/999908/Software_flow_chart_Ed_1-08b-IVD.pdf), or requires [HRA Approval](https://www.hra.nhs.uk/approvals-amendments/what-approvals-do-i-need/hra-approval/). In these cases it is important to abide by the requirements of the appropriate authority and include text that clearly states the relevant regulatory process: and that all further applications of the code must satisfy the same requirements. When projects are uncertain about their regulatory needs (for instance, when they fall under the remit of multiple bodies), the text of the relevant regulations, the [Multi Agency Advisory Service](https://www.nhsx.nhs.uk/ai-lab/ai-lab-programmes/regulating-the-ai-ecosystem/the-multi-agency-advice-service-maas/), the [NICE Evidence Standards Framework](https://www.nice.org.uk/about/what-we-do/our-programmes/evidence-standards-framework-for-digital-health-technologies) and the regulatory bodies themselves can all act as a guide.
 
 In the case of a Class I Medical Device, appropriate text may read:
 
@@ -333,12 +333,14 @@ README files should clearly indicate if a decision has been made to cease mainte
 | You’re clear about who owns the code and how others can use it | |
 |:---|:---|
 | Does your code have an appropriate licence and copyright notice? | **Mandatory** to include *(see Licensing section below)* |
-|Is the README clear and concise?|Best practice to include: [example](https://github.com/othneildrew/Best-README-Template/blob/master/BLANK_README.md)
+|Is the README clear and concise? |Best practice to include: [example](https://github.com/othneildrew/Best-README-Template/blob/master/BLANK_README.md)
+|Does the README document intended purpose? Has it been reviewed against MHRA 'software as a medical device' guidance? |**Mandatory** check: [flowchart](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/999908/Software_flow_chart_Ed_1-08b-IVD.pdf)|
 |Has semantic versioning been used?|Best practice to use *(see versioning section above)*|
 |Who has responsibility for ongoing support and communications for the code?|Best practice to assign|
 |Have [contribution guidelines](https://github.com/alphagov/govuk-frontend/blob/master/CONTRIBUTING.md) or [PR style guides](https://github.com/alphagov/styleguides/blob/master/pull-requests.md) been included? |Best practice to include|
 |Who will address identified issues and security concerns? |**Mandatory** check|
-|||
+|Who will address identified issues and security concerns? |**Mandatory** check|
+
 | **You do not release information that should remain closed** | |
 | Does the code include any sensitive, personal, secret or top secret data/information? | **Mandatory** check *(if any identified then see section on dealing with sensitive data in code below)* <br />:white_large_square: No sensitive data <br />:white_large_square: Sensitive <br />:white_large_square: Personal <br />:white_large_square: Secret <br />:white_large_square: Top secret | 
 | Does the code include any unreleased policy?| **Mandatory** check *(if any identified then see section on dealing with sensitive data in code below)*|
