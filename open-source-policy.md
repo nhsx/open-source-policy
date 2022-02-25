@@ -64,7 +64,7 @@ By default, all new code should be open source. But what does this mean, and wha
 
 * **Coded In The Open**
 
-* **Open Source** where training needs, technical or procurement requirements prevent Coding In The Open from the start.
+* **Open Source** where training needs, technical or procurement requirements prevent Coding In The Open from the start
 
 * **Closed** when it’s impossible to separate code from disclosive or secure information about patients, staff, systems, or infrastructure, or when required by policy, business, or statistical demands
 
@@ -127,9 +127,9 @@ The rest of this section details processes and practices that should be in place
 
 **All projects should be accompanied by an informative README file** in plain text, [Markdown](https://commonmark.org/help/), or another easily readable format. This should cover:
 
-* A brief description of the project, who it’s for and what it does. This should include its intended purpose when implemented, its operating environment (or clinical use, if any), and intended users.
+* A brief description of the project, who it’s for and what it does. This should include its intended purpose when implemented, its operating environment (or clinical use, if any), and intended users
 
-* The project’s development status, and whether the code is actively maintained (or if not, when maintenance stopped).
+* The project’s development status, and whether the code is actively maintained (or if not, when maintenance stopped)
 
 * A primary point of contact (and means of doing so, e.g. an email address)
 
@@ -333,14 +333,14 @@ README files should clearly indicate if a decision has been made to cease mainte
 | You’re clear about who owns the code and how others can use it | |
 |:---|:---|
 | Does your code have an appropriate licence and copyright notice? | **Mandatory** to include *(see Licensing section below)* |
-|Is the README clear and concise? |Best practice to include: [example](https://github.com/othneildrew/Best-README-Template/blob/master/BLANK_README.md)
-|Does the README document intended purpose? Has it been reviewed against MHRA 'software as a medical device' guidance? |**Mandatory** check: [flowchart](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/999908/Software_flow_chart_Ed_1-08b-IVD.pdf)|
-|Has semantic versioning been used?|Best practice to use *(see versioning section above)*|
-|Who has responsibility for ongoing support and communications for the code?|Best practice to assign|
-|Have [contribution guidelines](https://github.com/alphagov/govuk-frontend/blob/master/CONTRIBUTING.md) or [PR style guides](https://github.com/alphagov/styleguides/blob/master/pull-requests.md) been included? |Best practice to include|
-|Who will address identified issues and security concerns? |**Mandatory** check|
-|Who will address identified issues and security concerns? |**Mandatory** check|
-
+| Is the README clear and concise? |Best practice to include: [example](https://github.com/othneildrew/Best-README-Template/blob/master/BLANK_README.md)
+| Does the README document intended purpose? Has it been reviewed against MHRA 'software as a medical device' guidance? |**Mandatory** check: [flowchart](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/999908/Software_flow_chart_Ed_1-08b-IVD.pdf)|
+| Has semantic versioning been used?|Best practice to use *(see versioning section above)*|
+| Who has responsibility for ongoing support and communications for the code?|Best practice to assign|
+| Have [contribution guidelines](https://github.com/alphagov/govuk-frontend/blob/master/CONTRIBUTING.md) or [PR style guides](https://github.com/alphagov/styleguides/blob/master/pull-requests.md) been included? |Best practice to include|
+| Who will address identified issues and security concerns? |**Mandatory** check|
+| Who will address identified issues and security concerns? |**Mandatory** check|
+|||
 | **You do not release information that should remain closed** | |
 | Does the code include any sensitive, personal, secret or top secret data/information? | **Mandatory** check *(if any identified then see section on dealing with sensitive data in code below)* <br />:white_large_square: No sensitive data <br />:white_large_square: Sensitive <br />:white_large_square: Personal <br />:white_large_square: Secret <br />:white_large_square: Top secret | 
 | Does the code include any unreleased policy?| **Mandatory** check *(if any identified then see section on dealing with sensitive data in code below)*|
