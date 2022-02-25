@@ -7,19 +7,19 @@ The policy that this document supports will aim to provide a single position and
 This document may refer to but does not cover policy on [when to produce or procure](https://nhsengland.github.io/it-standards/#/application-development/common-dev/readme) code in general, [engineering principles](https://github.com/NHSDigital/software-engineering-quality-framework/blob/main/principles.md), [information standards](https://digital.nhs.uk/data-and-information/information-standards/information-standards-and-data-collections-including-extractions/publications-and-notifications/standards-and-collections), [open data](https://digital.nhs.uk/services/supporting-open-data-and-transparency), or open [standards](https://www.gov.uk/government/publications/open-standards-principles/open-standards-principles), which can all be found elsewhere. It provides necessary context, conduct and assurance requirements for open publication, without replacing [broader guidance on digital and data driven technologies.](https://www.gov.uk/government/publications/code-of-conduct-for-data-driven-health-and-care-technology/initial-code-of-conduct-for-data-driven-health-and-care-technology)
 
 In brief, NHS Open Source Policy requires that:
-* All efforts are made to never solve the same problem twice. All new source code that we produce or commission should be open and reusable by default: such that anyone can freely access, use, modify, and share the relevant code for any purpose
+* All efforts are made to never solve the same problem twice. All new source code that we produce or commission should be open and reusable by default: such that anyone can freely access, use, modify, and share the relevant code for any purpose;
 
-* New projects justify their exception from open source publishing as part of the NHS digital and technology approval process, marking their projects as Coded In The Open, Open Source, Closed or Secured.
+* New projects justify their exception from open source publishing as part of the NHS digital and technology approval process, marking their projects as Coded In The Open, Open Source, Closed or Secured;
 
-* Projects use Github as the NHS’ preferred platform for publishing open source code: All new code should be hosted in an account owned by the commissioning organisation, unit, or community to ensure ongoing management and accountability.
+* Projects use Github as the NHS’ preferred platform for publishing open source code: All new code should be hosted in an account owned by the commissioning organisation, unit, or community to ensure ongoing management and accountability;
 
-* All projects should be accompanied by an informative README file, a licence and their full text in a LICENCE file. The relevant legal caveats and notices must be included when software could introduce risk or harm to either patients or the intended users of the software.
+* All projects should be accompanied by an informative README file, a licence and their full text in a LICENCE file. The relevant legal caveats and notices must be included when software could introduce risk or harm to either patients or the intended users of the software;
 
-* Repositories should have clear guidelines on how to contribute to their code (where contributions are accepted). If a project accepts the reporting of security vulnerabilities, guidelines should include a [responsible](https://cheatsheetseries.owasp.org/cheatsheets/Vulnerability_Disclosure_Cheat_Sheet.html) [disclosure process](https://www.ncsc.gov.uk/information/vulnerability-disclosure-toolkit).
+* Repositories should have clear guidelines on how to contribute to their code (where contributions are accepted). If a project accepts the reporting of security vulnerabilities, guidelines should include a [responsible](https://cheatsheetseries.owasp.org/cheatsheets/Vulnerability_Disclosure_Cheat_Sheet.html) [disclosure process](https://www.ncsc.gov.uk/information/vulnerability-disclosure-toolkit);
 
-* A contact email address and a responsible member of staff are provided to make sure that issues can be addressed. All documentation and conduct should reflect [NHS Values](https://www.hee.nhs.uk/about/our-values/nhs-constitutional-values-hub-0).
+* A contact email address and a responsible member of staff are provided to make sure that issues can be addressed. All documentation and conduct should reflect [NHS Values](https://www.hee.nhs.uk/about/our-values/nhs-constitutional-values-hub-0);
 
-* Projects adhere to [best practice](https://www.gov.uk/government/publications/code-of-conduct-for-data-driven-health-and-care-technology/initial-code-of-conduct-for-data-driven-health-and-care-technology) and [common standards](https://nhsengland.github.io/it-standards/#/application-development/common-dev/readme). An internal [code review](https://github.com/NHSDigital/software-engineering-quality-framework/blob/main/patterns/everything-as-code.md#code-review) should be conducted for all open source projects and specific responsibilities must be met within or close to the development team. Changes to code (‘commits’) should be accompanied by [meaningful and informative records](https://www.gov.uk/service-manual/technology/maintaining-version-control-in-coding#writing-commit-messages).
+* Projects adhere to [best practice](https://www.gov.uk/government/publications/code-of-conduct-for-data-driven-health-and-care-technology/initial-code-of-conduct-for-data-driven-health-and-care-technology) and [common standards](https://nhsengland.github.io/it-standards/#/application-development/common-dev/readme). An internal [code review](https://github.com/NHSDigital/software-engineering-quality-framework/blob/main/patterns/everything-as-code.md#code-review) should be conducted for all open source projects and specific responsibilities must be met within or close to the development team. Changes to code (‘commits’) should be accompanied by [meaningful and informative records](https://www.gov.uk/service-manual/technology/maintaining-version-control-in-coding#writing-commit-messages);
 
 * Additional [security considerations](https://www.gov.uk/government/publications/open-source-guidance/security-considerations-when-coding-in-the-open) are made above and beyond general best practice and specific organisational policies. Project history should be thoroughly reviewed and valid keys and credentials must not be published.
 
@@ -38,13 +38,13 @@ Whether it’s in the creation, collaboration or consumption of code, we have go
 
 Commitments for the adoption of open source code are available in multiple articles of government and NHS policy, including:
 
-* The forthcoming NHS [Data Strategy](https://docs.google.com/document/d/1u7V9iOE80rVzO7P-_pDFBs42p2l14stpa8pIJHYyvkk/edit) “Data saves lives: reshaping health and social care with data”, which contains two relevant commitments on making code that we produce open and reusable. The first of which states: “**We will begin to make all new source code that we produce or commission open and reusable by default** (with clear exceptions) and publish it under appropriate licences to encourage further innovation (such as MIT and OGLv3, alongside suitable open datasets or dummy data) (December 2021). Subject to consultation, the relevant policies will also aim to be open and reusable.”
+* The forthcoming NHS [Data Strategy](https://docs.google.com/document/d/1u7V9iOE80rVzO7P-_pDFBs42p2l14stpa8pIJHYyvkk/edit) “Data saves lives: reshaping health and social care with data”, which contains two relevant commitments on making code that we produce open and reusable. The first of which states: “**We will begin to make all new source code that we produce or commission open and reusable by default** (with clear exceptions) and publish it under appropriate licences to encourage further innovation (such as MIT and OGLv3, alongside suitable open datasets or dummy data) (December 2021). Subject to consultation, the relevant policies will also aim to be open and reusable”;
 
-* The [Future of healthcare: our vision for digital, data and technology in health and care](https://www.gov.uk/government/publications/the-future-of-healthcare-our-vision-for-digital-data-and-technology-in-health-and-care/the-future-of-healthcare-our-vision-for-digital-data-and-technology-in-health-and-care) speaks to interoperability and openness (around standards, culture, technology, and code) as one of it’s four guiding principles.
+* The [Future of healthcare: our vision for digital, data and technology in health and care](https://www.gov.uk/government/publications/the-future-of-healthcare-our-vision-for-digital-data-and-technology-in-health-and-care/the-future-of-healthcare-our-vision-for-digital-data-and-technology-in-health-and-care) speaks to interoperability and openness (around standards, culture, technology, and code) as one of it’s four guiding principles;
 
-* The [GDS service manual](https://www.gov.uk/service-manual/technology/making-source-code-open-and-reusable), which states “When you create new source code, you must make it open so that other developers (including those outside government) can: benefit from your work and build on it; learn from your experiences; find uses for your code which you had not found”. The [12th service standard ](https://www.gov.uk/service-manual/service-standard/point-12-make-new-source-code-open)goes further, to suggest that developers: “write code in the open from the start, and publish it in an open repository - minus any sensitive information, like secret keys and credentials” and “keep ownership of the intellectual property of new source code that’s created as part of the service, and make it available for reuse under an open licence”. That text is directly reproduced in the [12th NHS service standard](https://service-manual.nhs.uk/service-standard/12-make-new-source-code-open)
+* The [GDS service manual](https://www.gov.uk/service-manual/technology/making-source-code-open-and-reusable), which states “When you create new source code, you must make it open so that other developers (including those outside government) can: benefit from your work and build on it; learn from your experiences; find uses for your code which you had not found”. The [12th service standard ](https://www.gov.uk/service-manual/service-standard/point-12-make-new-source-code-open)goes further, to suggest that developers: “write code in the open from the start, and publish it in an open repository - minus any sensitive information, like secret keys and credentials” and “keep ownership of the intellectual property of new source code that’s created as part of the service, and make it available for reuse under an open licence”. That text is directly reproduced in the [12th NHS service standard](https://service-manual.nhs.uk/service-standard/12-make-new-source-code-open);
 
-* The government [Technology code of Practice](https://www.gov.uk/guidance/be-open-and-use-open-source) states that “your plans must show you’ve considered using open source and publishing your code openly”, requiring “equal consideration to be given to open source solutions when procuring software”
+* The government [Technology code of Practice](https://www.gov.uk/guidance/be-open-and-use-open-source) states that “your plans must show you’ve considered using open source and publishing your code openly”, requiring “equal consideration to be given to open source solutions when procuring software”.
 
 These commitments are not without resource implications. This document will help teams understand the practical requirements of openly publishing their code ahead of time, so that they can anticipate staffing needs and factor them into procurement and provision.
 
@@ -237,11 +237,11 @@ In addition to regular[ quality tests](https://github.com/NHSDigital/software-en
 
 * Lead developer - writing and updating new software
 
-* Maintainer - all quality assurance, including testing, reporting or fixing bugs, monitoring issues and responsibility for stable releases.
+* Maintainer - all quality assurance, including testing, reporting or fixing bugs, monitoring issues and responsibility for stable releases
 
-* Information governance lead - ensuring that all licences are appropriate and all data handled appropriately.
+* Information governance lead - ensuring that all licences are appropriate and all data handled appropriately
 
-* Community or user lead - ensuring that feedback and comms are managed appropriately, and that documentation is up to date.
+* Community or user lead - ensuring that feedback and comms are managed appropriately, and that documentation is up to date
 
 Even relatively small projects will require a member of staff to ensure that user needs are being met. Large projects should have separate members of staff for each of the above.
 
@@ -273,24 +273,24 @@ Keys, credentials and secrets that allow for access to data or parts of a system
 
 The [Central Digital and Data Office](https://www.gov.uk/government/organisations/central-digital-and-data-office) suggests the following timelines for dealing with vulnerabilities:
 
-* If discovered as part of a development and test cycle, or reported through a private vulnerability disclosure process, the risk of attack is low: deal with the vulnerability as a normal bugfix cycle, and release details after the code is committed.
+* If discovered as part of a development and test cycle, or reported through a private vulnerability disclosure process, the risk of attack is low: deal with the vulnerability as a normal bugfix cycle, and release details after the code is committed
 
-* If publicly disclosed, consider whether you need to make an emergency fix. Review the vulnerable parts of the system to check for inconsistencies to determine whether the vulnerability has been exploited.
+* If publicly disclosed, consider whether you need to make an emergency fix. Review the vulnerable parts of the system to check for inconsistencies to determine whether the vulnerability has been exploited
 
-* If you’re given private information about a vulnerability that affects others, it might be appropriate to make the fix privately, deploy from a private repository and merge back into the public one when safe to do so. This will avoid putting other teams or systems at risk by leaking the information before it is made public.
+* If you’re given private information about a vulnerability that affects others, it might be appropriate to make the fix privately, deploy from a private repository and merge back into the public one when safe to do so. This will avoid putting other teams or systems at risk by leaking the information before it is made public
 
 
 ### History
 
 There are four steps to ensuring that your project’s version and commit history is suitable for open publication:
 
-* **Project history should be thoroughly reviewed.**
+* **Project history should be thoroughly reviewed**
 
-* **Valid keys and credentials must not be published.** If they were previously included in a project at any stage then they will be present in the project’s history. All keys and credentials should be rotated or renewed so that those being published are no longer valid. This needs to be documented clearly.
+* **Valid keys and credentials must not be published.** If they were previously included in a project at any stage then they will be present in the project’s history. All keys and credentials should be rotated or renewed so that those being published are no longer valid. This needs to be documented clearly
 
-* When required, a project’s team may either remove or improve some commits, or [squash](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History) all previous commits into one. This may be important for quality control, but erases valuable development documentation.
+* When required, a project’s team may either remove or improve some commits, or [squash](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History) all previous commits into one. This may be important for quality control, but erases valuable development documentation
 
-* When absolutely necessary a project may move the latest secure version of the code to a new repository. This is time consuming, loses development value, and can create competing versions of the code without required documentation, but may be required under extreme circumstances.  
+* When absolutely necessary a project may move the latest secure version of the code to a new repository. This is time consuming, loses development value, and can create competing versions of the code without required documentation, but may be required under extreme circumstances 
 
 
 ### Maintenance
