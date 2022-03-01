@@ -1,6 +1,6 @@
 ## Executive summary
 
-This document informs why, how and when staff across the NHS should openly publish their programming code. It is aimed largely at CIOs and technical programme leads (especially sections 1, 2, and 3), teams developing new code in house (sections 3 and 4), and those commissioning new work from suppliers (3, 4, and 5). It is a living document, which anyone can comment upon or suggest changes to through Github or by email. Every year from Summer 2022, this document will be used to release or update official policy. Comments received after April of that year will form part of the following year’s update.
+This document informs why, how and when staff across the NHS should openly publish their programming code. It is aimed largely at CIOs and technical programme leads (especially sections 1, 2, and 3), teams developing new code in house (sections 3 and 4), and those commissioning new work from suppliers (3, 4, and 5). It is a living document, which anyone can comment upon or suggest changes to through GitHub or by email. Every year from Summer 2022, this document will be used to release or update official policy. Comments received after April of that year will form part of the following year’s update.
 
 The policy that this document supports will aim to provide a single position and source of guidance for anyone developing open software for or with the NHS in England.
 
@@ -11,7 +11,7 @@ In brief, NHS Open Source Policy requires that:
 
 * New projects justify their exception from open source publishing as part of the NHS digital and technology approval process, marking their projects as Coded In The Open, Open Source, Closed or Secured;
 
-* Projects use Github as the NHS’ preferred platform for publishing open source code: All new code should be hosted in an account owned by the commissioning organisation, unit, or community to ensure ongoing management and accountability;
+* Projects use GitHub as the NHS’ preferred platform for publishing open source code: All new code should be hosted in an account owned by the commissioning organisation, unit, or community to ensure ongoing management and accountability;
 
 * All projects should be accompanied by an informative README file, a licence and their full text in a LICENCE file. The relevant legal caveats and notices must be included when software could introduce risk or harm to either patients or the intended users of the software;
 
@@ -107,9 +107,9 @@ Although the idea of open sourcing code may at first appear intimidating, this d
 
 ### Repositories
 
-Most open source code is published in a repository, a form of internet hosting that allows for limited or broad access. Many developers and analysts choose to publish their code through language specific platforms, like the[ Python Package Index](https://pypi.org/) or the [Comprehensive R Archive Network](https://cran.r-project.org/), as well as more general platforms like [Github](https://github.com/).
+Most open source code is published in a repository, a form of internet hosting that allows for limited or broad access. Many developers and analysts choose to publish their code through language specific platforms, like the[ Python Package Index](https://pypi.org/) or the [Comprehensive R Archive Network](https://cran.r-project.org/), as well as more general platforms like [GitHub](https://github.com/).
 
-**Github is the NHS’ preferred platform for publishing open source code**. NHS [England and Improvement](https://github.com/nhsengland), [Wales](https://github.com/nwisbeta), [Digital](https://github.com/nhsdigital/) and [X](https://github.com/nhsx/) all have Github accounts, as do many NHS trusts and units. The [GDS](https://github.com/alphagov) make all their code available through that platform, with 1.5 thousand public repositories.
+**GitHub is the NHS’ preferred platform for publishing open source code**. NHS [England and Improvement](https://github.com/nhsengland), [Wales](https://github.com/nwisbeta), [Digital](https://github.com/nhsdigital/) and [X](https://github.com/nhsx/) all have GitHub accounts, as do many NHS trusts and units. The [GDS](https://github.com/alphagov) make all their code available through that platform, with 1.5 thousand public repositories.
 
 The rest of this section details processes and practices that should be in place for NHS code to be uploaded to a repository, including assurance practices and licensing. As per the GDS service manual, the minimum requirements before uploading your code to a repository are that:
 
@@ -170,7 +170,7 @@ In the case of a Class I Medical Device, appropriate text may read:
 
 ### Contribution and Community Guidelines
 
-**All repositories should have clear guidelines on how to contribute to their code**. Specific projects may also need guidelines by exception. The Github Docs [Contribution Guide](https://github.com/github/docs/blob/main/CONTRIBUTING.md) is a short and general example, while [NHS Digital’s Contributors Guide](https://github.com/NHSDigital/software-engineering-quality-framework/blob/main/.github/CONTRIBUTING.md) is more specific and more concise. Github repository guidelines should cover:
+**All repositories should have clear guidelines on how to contribute to their code**. Specific projects may also need guidelines by exception. The GitHub Docs [Contribution Guide](https://github.com/github/docs/blob/main/CONTRIBUTING.md) is a short and general example, while [NHS Digital’s Contributors Guide](https://github.com/NHSDigital/software-engineering-quality-framework/blob/main/.github/CONTRIBUTING.md) is more specific and more concise. GitHub repository guidelines should cover:
 
 * Whether a repository/project is accepting contributions
 
@@ -182,13 +182,13 @@ In the case of a Class I Medical Device, appropriate text may read:
 
 * Pull requests and merging
 
-Once guidelines have been developed, Appendix A illustrates a practical contribution process (developed by NHS Digital) for how to progress issues raised on Github.
+Once guidelines have been developed, Appendix A illustrates a practical contribution process (developed by NHS Digital) for how to progress issues raised on GitHub.
 
 Where templates and model processes have been provided, it’s important that project owners review the relevant terms or workflow to ensure that they’re fully applicable.
 
 **If a project accepts the reporting of security vulnerabilities, guidelines should include a [responsible](https://cheatsheetseries.owasp.org/cheatsheets/Vulnerability_Disclosure_Cheat_Sheet.html) [disclosure process](https://www.ncsc.gov.uk/information/vulnerability-disclosure-toolkit).**
 
-Where projects accept contributions from a wide range of participants, and especially where contributions may come from outside the host organisation, Community Guidelines are also important. Github’s [Community Guidelines](https://docs.github.com/en/github/site-policy/github-community-guidelines) govern expectations on the platform as a whole, but should be re-stated and well specified in codes of conduct for NHS projects where public engagement is requested. These need to cover:
+Where projects accept contributions from a wide range of participants, and especially where contributions may come from outside the host organisation, Community Guidelines are also important. GitHub’s [Community Guidelines](https://docs.github.com/en/github/site-policy/github-community-guidelines) govern expectations on the platform as a whole, but should be re-stated and well specified in codes of conduct for NHS projects where public engagement is requested. These need to cover:
 
 * The stated goals of the community
 
@@ -248,7 +248,7 @@ Even relatively small projects will require a member of staff to ensure that use
 
 ### Commits and Semantic Versioning
 
-Github offers comprehensive version control, but **changes to code (‘commits’) should be accompanied by [meaningful and informative records](https://www.gov.uk/service-manual/technology/maintaining-version-control-in-coding#writing-commit-messages). **Projects should also use [semantic versioning](https://semver.org/) in the form of MAJOR.MINOR.PATCH (e.g. 1.0.1). They should increment the:
+GitHub offers comprehensive version control, but **changes to code (‘commits’) should be accompanied by [meaningful and informative records](https://www.gov.uk/service-manual/technology/maintaining-version-control-in-coding#writing-commit-messages). **Projects should also use [semantic versioning](https://semver.org/) in the form of MAJOR.MINOR.PATCH (e.g. 1.0.1). They should increment the:
 
 * MAJOR version number when code becomes incompatible with previous versions,
 
