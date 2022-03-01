@@ -1,6 +1,6 @@
 ## Executive summary
 
-This document informs why, how and when staff across the NHS should openly publish their programming code. It is aimed largely at CIOs and technical programme leads (especially sections 1, 2, and 3), teams developing new code in house (sections 3 and 4), and those commissioning new work from suppliers (3, 4, and 5). It is a living document, which anyone can comment upon or suggest changes to through GitHub or by email. Every year from Summer 2022, this document will be used to release or update official policy. Comments received after April of that year will form part of the following year’s update.
+This document informs why, how and when staff across the NHS in England should openly publish their programming code. It is aimed largely at CIOs and technical programme leads (especially sections 1, 2, and 3), teams developing new code in house (sections 3 and 4), and those commissioning new work from suppliers (3, 4, and 5). It is a living document, which anyone can comment upon or suggest changes to through GitHub or by email. Every year from Summer 2022, this document will be used to release or update official policy. Comments received after April of that year will form part of the following year’s update.
 
 The policy that this document supports will aim to provide a single position and source of guidance for anyone developing open software for or with the NHS in England.
 
@@ -109,7 +109,7 @@ Although the idea of open sourcing code may at first appear intimidating, this d
 
 Most open source code is published in a repository, a form of internet hosting that allows for limited or broad access. Many developers and analysts choose to publish their code through language specific platforms, like the[ Python Package Index](https://pypi.org/) or the [Comprehensive R Archive Network](https://cran.r-project.org/), as well as more general platforms like [GitHub](https://github.com/).
 
-**GitHub is the NHS’ preferred platform for publishing open source code**. NHS [England and Improvement](https://github.com/nhsengland), [Wales](https://github.com/nwisbeta), [Digital](https://github.com/nhsdigital/) and [X](https://github.com/nhsx/) all have GitHub accounts, as do many NHS trusts and units. The [GDS](https://github.com/alphagov) make all their code available through that platform, with 1.5 thousand public repositories.
+  **GitHub is the NHS’ preferred platform for publishing open source code**. NHS [England and Improvement](https://github.com/nhsengland), [Digital](https://github.com/nhsdigital/) and [X](https://github.com/nhsx/) all have GitHub accounts, as do many NHS trusts and units across England, [Public Health Scotland](https://github.com/Public-Health-Scotland) and [Digital Health and Care Wales](https://github.com/nwisbeta). The [GDS](https://github.com/alphagov) make all their code available through that platform, with 1.5 thousand public repositories.
 
 The rest of this section details processes and practices that should be in place for NHS code to be uploaded to a repository, including assurance practices and licensing. As per the GDS service manual, the minimum requirements before uploading your code to a repository are that:
 
