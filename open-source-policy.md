@@ -355,7 +355,7 @@ README files should clearly indicate if a decision has been made to cease mainte
 | Have notebook outputs been removed/checked for sensitive information? | **Mandatory** check but some appropriate outputs maybe useful: [Example]( https://github.com/best-practice-and-impact/govcookiecutter/blob/main/%7B%7B%20cookiecutter.repo_name%20%7D%7D/.pre-commit-config.yaml) |
 |||
 |**You store it in a repository managed by your department**||
-|Is the code stored in your organisational github account? Is it the same organisation that funds the relevant staff time? | Best practice to ensure | 
+|Is the code stored in your organisational GitHub account? Is it the same organisation that funds the relevant staff time? | Best practice to ensure | 
 |||
 |**Any third-party tools you use to host or manage your code follow the National Cyber Security Centre’s cloud security guidance**||
 | Are third party tools used within the code? | **Mandatory** check |
