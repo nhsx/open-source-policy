@@ -269,7 +269,7 @@ If a vulnerability is identified in your project you should follow general pract
 
 * Deal with security vulnerabilities quickly
 
-Keys, credentials and secrets that allow for access to data or parts of a system otherwise Secured must be kept Closed and seperate from code, as part of a system that allows them to be changed, rotated or revoked easily and thoroughly.
+Keys, credentials and secrets that allow for access to data or parts of a system otherwise Secured must be kept Closed and separate from code, as part of a system that allows them to be changed, rotated or revoked easily and thoroughly.
 
 The [Central Digital and Data Office](https://www.gov.uk/government/organisations/central-digital-and-data-office) suggests the following timelines for dealing with vulnerabilities:
 
