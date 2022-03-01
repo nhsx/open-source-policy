@@ -339,7 +339,6 @@ README files should clearly indicate if a decision has been made to cease mainte
 | Who has responsibility for ongoing support and communications for the code?|Best practice to assign|
 | Have [contribution guidelines](https://github.com/alphagov/govuk-frontend/blob/master/CONTRIBUTING.md) or [PR style guides](https://github.com/alphagov/styleguides/blob/master/pull-requests.md) been included? |Best practice to include|
 | Who will address identified issues and security concerns? |**Mandatory** check|
-| Who will address identified issues and security concerns? |**Mandatory** check|
 |||
 | **You do not release information that should remain closed** | |
 | Does the code include any sensitive, personal, secret or top secret data/information? | **Mandatory** check *(if any identified then see section on dealing with sensitive data in code below)* <br />:white_large_square: No sensitive data <br />:white_large_square: Sensitive <br />:white_large_square: Personal <br />:white_large_square: Secret <br />:white_large_square: Top secret | 
