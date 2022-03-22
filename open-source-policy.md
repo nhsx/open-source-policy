@@ -164,13 +164,13 @@ When selecting licences, projects should check that they respect the terms of an
 
 Some projects (like [QCovid](https://github.com/QCovid)) fall under the remit of health and social care relevant regulators, such as the [MHRA](https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency), [HRA](https://www.hra.nhs.uk/), or [CQC](https://www.cqc.org.uk/). Under specific circumstances code should be accompanied by a legal notice that describes that coverage. Including the relevant text in a NOTICE file ensures that any copies made under an APLv2 licence preserve that text.
 
-All digital health tools entering into the NHS and social care must be assured against the [Digital Technology Assessment Criteria](https://www.nhsx.nhs.uk/key-tools-and-info/digital-technology-assessment-criteria-dtac/) (DTAC), which includes assurance questions on clinical safety and medical devices. When software is part of a new commission or project, outside of its original organisation, the new project must also be assessed. **Legal caveats and notices must be included whenever software could introduce risk or harm to patients or the intended users of the software**, whether it is its first application, or its fiftieth. This may include, but is not limited to, applications where software is intended for [clinical use](https://www.cqc.org.uk/guidance-providers/registration/regulated-activities), counts as a [medical device](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/999908/Software_flow_chart_Ed_1-08b-IVD.pdf), or requires [HRA Approval](https://www.hra.nhs.uk/approvals-amendments/what-approvals-do-i-need/hra-approval/). In these cases it is important to abide by the requirements of the appropriate authority and include text that clearly states the relevant regulatory process: and that all further applications of the code must satisfy the same requirements. When projects are uncertain about their regulatory needs (for instance, when they fall under the remit of multiple bodies), the text of the relevant regulations, the [Multi Agency Advisory Service](https://www.nhsx.nhs.uk/ai-lab/ai-lab-programmes/regulating-the-ai-ecosystem/the-multi-agency-advice-service-maas/), the [NICE Evidence Standards Framework](https://www.nice.org.uk/about/what-we-do/our-programmes/evidence-standards-framework-for-digital-health-technologies) and the regulatory bodies themselves can all act as a guide.
+All [digital health tools](https://www.nhsx.nhs.uk/key-tools-and-info/digital-technology-assessment-criteria-dtac/#:~:text=that%20should%20be%20assessed-,using,-the%20DTAC) used to provide electronic information for health and social care must be assured against the [Digital Technology Assessment Criteria](https://www.nhsx.nhs.uk/key-tools-and-info/digital-technology-assessment-criteria-dtac/) (DTAC), which includes assurance questions on clinical safety and medical devices. When software is part of a new commission or project, outside of its original organisation, the new project must also be assessed. **Legal caveats and notices must be included whenever software could introduce risk or harm to patients or the intended users of the software**, whether it is its first application, or its fiftieth. This may include, but is not limited to, applications where software is intended for clinical use (as per the CQC's [regulated activities](https://www.cqc.org.uk/guidance-providers/registration/regulated-activities)), counts as a [medical device](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/999908/Software_flow_chart_Ed_1-08b-IVD.pdf), or requires [HRA Approval](https://www.hra.nhs.uk/approvals-amendments/what-approvals-do-i-need/hra-approval/). In these cases it is important to abide by the requirements of the appropriate authority and include text that clearly states the relevant regulatory process: and that all further applications of the code must satisfy the same requirements. When projects are uncertain about their regulatory needs (for instance, when they fall under the remit of multiple bodies), the text of the relevant regulations, the [Multi Agency Advisory Service](https://www.nhsx.nhs.uk/ai-lab/ai-lab-programmes/regulating-the-ai-ecosystem/the-multi-agency-advice-service-maas/), the [NICE Evidence Standards Framework](https://www.nice.org.uk/about/what-we-do/our-programmes/evidence-standards-framework-for-digital-health-technologies) and the regulatory bodies themselves can all act as a guide.
 
 In the case of a Class I Medical Device, appropriate text may read:
 
 *In its compiled form, _[name of code]_ is a Class I Medical Device and is covered by the Medical Device Regulations 2002 (as amended). Modification of the source code and subsequently placing that modified code on the market may make that person/entity a legal manufacturer of a medical device and so subject to the requirements listed in Medical Device Regulations 2002 (as amended). Failure to comply with these regulations (for example, failure to comply with the relevant registration requirements or failure to meet the relevant essential requirements) may result in prosecution and a penalty of an unlimited fine and/or 6 months’ imprisonment.*
 
-### d. Contribution and Community Guidelines
+### d. Contribution and community guidelines
 
 **All repositories should have clear guidelines on how to contribute to their code**. Specific projects may also need guidelines by exception. The GitHub Docs [Contribution Guide](https://github.com/github/docs/blob/main/CONTRIBUTING.md) is a short and general example, while [NHS Digital’s Contributors Guide](https://github.com/NHSDigital/software-engineering-quality-framework/blob/main/.github/CONTRIBUTING.md) is more specific and more concise. GitHub repository guidelines should cover:
 
@@ -231,7 +231,7 @@ In addition to regular[ quality tests](https://github.com/NHSDigital/software-en
 * Exclusion of unreleased policy or official statistics
 
 
-### f. Team Responsibilities
+### f. Team responsibilities
 
 **Open source code requires that specific responsibilities be met within or close to the development team**, in addition to wider or pre-existing roles (such as Data Protection Officer). Although individual staff members may fulfil one or more of these responsibilities they must each be recognised as an important part of their role.
 
@@ -248,7 +248,7 @@ In addition to regular[ quality tests](https://github.com/NHSDigital/software-en
 Even relatively small projects will require a member of staff to ensure that user needs are being met. Large projects should have separate members of staff for each of the above.
 
 
-### g. Commits, Semantic Versioning and History
+### g. Commits, semantic versioning and history
 
 GitHub offers comprehensive version control, but **changes to code (‘commits’) should be accompanied by [meaningful and informative records](https://www.gov.uk/service-manual/technology/maintaining-version-control-in-coding#writing-commit-messages).** Projects should also use [semantic versioning](https://semver.org/) in the form of MAJOR.MINOR.PATCH (e.g. 1.0.1). They should increment the:
 
@@ -320,12 +320,12 @@ README files should clearly indicate if a decision has been made to cease mainte
   
   
 
-## Appendix A: Open Contribution Process
+## Appendix A: Open contribution process
 
 ![Open Contribution Process](images/open-contribution-process.png)
   
  
-## Appendix B: Open Source Checklist
+## Appendix B: Open source checklist
 
   
 
