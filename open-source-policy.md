@@ -103,9 +103,9 @@ Some code cannot be opened at any time, almost always due to a specific and expl
 
 ## 4. How to open source code
 
-Although the idea of open sourcing code may at first appear intimidating, this document outlines the six steps that are necessary. The following components turn common coding standards into best practice, helping to ensure that the code produced within and for the NHS fully supports our Commitments and Values. Many examples of best practice are available (and linked throughout) at [local,](https://github.com/yorkshire-and-humber-care-record/fhir-appliance) [national](https://github.com/QCovid/QCovid), and [global](https://github.com/gerddie/ginkgocadx) scale.
+Although the idea of open sourcing code may at first appear intimidating, this document outlines the nine steps that are necessary. The following components turn common coding standards into best practice, helping to ensure that the code produced within and for the NHS fully supports our Commitments and Values. Many examples of best practice are available (and linked throughout) at [local,](https://github.com/yorkshire-and-humber-care-record/fhir-appliance) [national](https://github.com/QCovid/QCovid), and [global](https://github.com/gerddie/ginkgocadx) scale.
 
-### Repositories
+### a. Repositories
 
 Most open source code is published in a repository, a form of internet hosting that allows for limited or broad access. Many developers and analysts choose to publish their code through language specific platforms, like the[ Python Package Index](https://pypi.org/) or the [Comprehensive R Archive Network](https://cran.r-project.org/), as well as more general platforms like [GitHub](https://github.com/).
 
@@ -121,15 +121,17 @@ The rest of this section details processes and practices that should be in place
 
 * Any third-party tools you use to host or manage your code follow the [National Cyber Security Centre](https://github.com/ukncsc)’s [cloud security guidance](https://www.ncsc.gov.uk/guidance/cloud-security-collection)
 
+These requirements can be seen as headers for each section in Appendix B's checklist for open source. 
+
 **All new code should be hosted in an account owned by the commissioning organisation, unit, or community to ensure ongoing management and accountability.** As projects change scale or ownership they can be forked or copied as appropriate.
 
-### Readmes
+### b. Readmes
 
 **All projects should be accompanied by an informative README file** in plain text, [Markdown](https://commonmark.org/help/), or another easily readable format. This should cover:
 
 * A brief description of the project, who it’s for and what it does. This should include its intended purpose when implemented, its operating environment (or clinical use, if any), and intended users
 
-* The project’s development status, and whether the code is actively maintained (or if not, when maintenance stopped)
+* The project’s development status, any relevant release notes, and whether the code is actively maintained (or if not, when maintenance stopped)
 
 * A primary point of contact (and means of doing so, e.g. an email address)
 
@@ -145,7 +147,7 @@ The rest of this section details processes and practices that should be in place
 
 Contribution and Community Guidelines (see below) may be included in the README or in separate documents in a project’s top level directory.
 
-### Licences and regulatory requirements.
+### c. Licences and regulatory requirements.
 
 NHS staff exert intellectual property rights for code and documentation through Crown Copyright. Using a copyright notice e.g. _Copyright (c) 2021 Crown Copyright_ ensures that rights to the relevant work reside with the UK Government, and that unless otherwise specified no-one else can copy, distribute or modify your work without risk. Licences then dictate further terms for how people may use copyrighted material.
 
@@ -168,7 +170,7 @@ In the case of a Class I Medical Device, appropriate text may read:
 
 *In its compiled form, _[name of code]_ is a Class I Medical Device and is covered by the Medical Device Regulations 2002 (as amended). Modification of the source code and subsequently placing that modified code on the market may make that person/entity a legal manufacturer of a medical device and so subject to the requirements listed in Medical Device Regulations 2002 (as amended). Failure to comply with these regulations (for example, failure to comply with the relevant registration requirements or failure to meet the relevant essential requirements) may result in prosecution and a penalty of an unlimited fine and/or 6 months’ imprisonment.*
 
-### Contribution and Community Guidelines
+### d. Contribution and Community Guidelines
 
 **All repositories should have clear guidelines on how to contribute to their code**. Specific projects may also need guidelines by exception. The GitHub Docs [Contribution Guide](https://github.com/github/docs/blob/main/CONTRIBUTING.md) is a short and general example, while [NHS Digital’s Contributors Guide](https://github.com/NHSDigital/software-engineering-quality-framework/blob/main/.github/CONTRIBUTING.md) is more specific and more concise. GitHub repository guidelines should cover:
 
@@ -202,7 +204,7 @@ Where projects accept contributions from a wide range of participants, and espec
 
 As above, **a contact email address and a responsible member of staff are necessary to make sure that issues can be addressed. In all cases, documentation and conduct should reflect [NHS Values](https://www.hee.nhs.uk/about/our-values/nhs-constitutional-values-hub-0).**
 
-### Assurance requirements
+### e. Assurance requirements
 
 **As with all code produced by the NHS, open source code must adhere to [best practice](https://www.gov.uk/government/publications/code-of-conduct-for-data-driven-health-and-care-technology/initial-code-of-conduct-for-data-driven-health-and-care-technology) and [common standards](https://nhsengland.github.io/it-standards/#/application-development/common-dev/readme).** The assurance requirements for open source code are by necessity higher than for closed code (with documentation and informative comments developed from the very start of a project) but are not more burdensome than standard best practice. A checklist is included in Appendix B and automated tools are available to help with some of the relevant steps.
 
@@ -229,7 +231,7 @@ In addition to regular[ quality tests](https://github.com/NHSDigital/software-en
 * Exclusion of unreleased policy or official statistics
 
 
-### Team Responsibilities
+### f. Team Responsibilities
 
 **Open source code requires that specific responsibilities be met within or close to the development team**, in addition to wider or pre-existing roles (such as Data Protection Officer). Although individual staff members may fulfil one or more of these responsibilities they must each be recognised as an important part of their role.
 
@@ -246,7 +248,7 @@ In addition to regular[ quality tests](https://github.com/NHSDigital/software-en
 Even relatively small projects will require a member of staff to ensure that user needs are being met. Large projects should have separate members of staff for each of the above.
 
 
-### Commits and Semantic Versioning
+### g. Commits, Semantic Versioning and History
 
 GitHub offers comprehensive version control, but **changes to code (‘commits’) should be accompanied by [meaningful and informative records](https://www.gov.uk/service-manual/technology/maintaining-version-control-in-coding#writing-commit-messages).** Projects should also use [semantic versioning](https://semver.org/) in the form of MAJOR.MINOR.PATCH (e.g. 1.0.1). They should increment the:
 
@@ -256,8 +258,20 @@ GitHub offers comprehensive version control, but **changes to code (‘commits�
 
 * PATCH version number for backwards compatible bug fixes.
 
+There are four steps to then ensuring that your project’s version and commit history is suitable for open publication:
+
+* **Project history should be thoroughly reviewed**
+
+* **Valid keys and credentials must not be published.** If they were previously included in a project at any stage then they will be present in the project’s history. All keys and credentials should be rotated or renewed so that those being published are no longer valid. This needs to be documented clearly
+
+* When required, a project’s team may either remove or improve some commits, or [squash](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History) all previous commits into one. This may be important for quality control, but erases valuable development documentation
+
+* When absolutely necessary a project may move the latest secure version of the code to a new repository. This is time consuming, loses development value, and can create competing versions of the code without required documentation, but may be required under extreme circumstances 
+
+If a project's commit history is lost then important documentation can be included in the Readme through release notes. 
+
  
-### Security
+### h. Security
 
 If a vulnerability is identified in your project you should follow general practices for dealing with the issue, and the specific security and mitigation policies in your team or organisation. If your code is, or is likely to become open source, there are further [security considerations](https://www.gov.uk/government/publications/open-source-guidance/security-considerations-when-coding-in-the-open) to be made. In brief:
 
@@ -280,20 +294,7 @@ The [Central Digital and Data Office](https://www.gov.uk/government/organisation
 * If you’re given private information about a vulnerability that affects others, it might be appropriate to make the fix privately, deploy from a private repository and merge back into the public one when safe to do so. This will avoid putting other teams or systems at risk by leaking the information before it is made public
 
 
-### History
-
-There are four steps to ensuring that your project’s version and commit history is suitable for open publication:
-
-* **Project history should be thoroughly reviewed**
-
-* **Valid keys and credentials must not be published.** If they were previously included in a project at any stage then they will be present in the project’s history. All keys and credentials should be rotated or renewed so that those being published are no longer valid. This needs to be documented clearly
-
-* When required, a project’s team may either remove or improve some commits, or [squash](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History) all previous commits into one. This may be important for quality control, but erases valuable development documentation
-
-* When absolutely necessary a project may move the latest secure version of the code to a new repository. This is time consuming, loses development value, and can create competing versions of the code without required documentation, but may be required under extreme circumstances 
-
-
-### Maintenance
+### i. Maintenance
 
 Projects have finite life spans and may go through periods of substantial activity before being retired, deprecated or archived. Most shared repositories will require regular maintenance and some updating between the two to ensure that component versions and data connections are current. Where projects are coded in the open, part of this maintenance process may involve a branching strategy (for features or releases) to prevent multiple conflicting versions of the code.
 
