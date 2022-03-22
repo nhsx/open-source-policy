@@ -233,7 +233,7 @@ In addition to regular[ quality tests](https://github.com/NHSDigital/software-en
 
 ### f. Team responsibilities
 
-**Open source code requires that specific responsibilities be met within or close to the development team**, in addition to wider or pre-existing roles (such as Data Protection Officer). Although individual staff members may fulfil one or more of these responsibilities they must each be recognised as an important part of their role.
+**Open source code requires that specific responsibilities be met within or close to the development team**, in addition to wider or pre-existing roles (such as [Data Protection Officer](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/accountability-and-governance/data-protection-officers/#ib1)). Although individual staff members may fulfil one or more of these responsibilities they must each be recognised as an important part of their role.
 
 * Point of contact - usually the project manager or lead developer
 
