@@ -74,7 +74,7 @@ By default, all new code should be open source. But what does this mean, and wha
 
 ### Coded In the Open
 
-It is much easier to [write your code in the open](https://gds.blog.gov.uk/2012/10/12/coding-in-the-open/) from the beginning of a project than it is to open an existing repository later, and most code should be made open source from the very start of a project. This is especially the case for general research, analysis or innovation projects where the teams involved are well placed to apply best practice from day one, or where code is commissioned from technically skilled providers. For those able to take advantage of them, open notebooks (like [Jupyter](https://jupyter.org/)) and [reproducible analytical pipelines](https://gss.civilservice.gov.uk/reproducible-analytical-pipelines/) are the gold standard.
+It is much easier to [write your code in the open](https://gds.blog.gov.uk/2012/10/12/coding-in-the-open/) from the beginning of a project than it is to open an existing repository later, and most code should be made open source from the very start of a project. This is especially the case for general research, analysis or innovation projects where the teams involved are well placed to apply best practice from day one, or where code is commissioned from technically skilled providers. 
 
 ### Open Source
 
