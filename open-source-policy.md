@@ -273,6 +273,8 @@ If a project's commit history is lost then important documentation can be includ
  
 ### h. Security
 
+Internal code review remains one of the best ways to discover or anticipate potential vulnerabilities in code, open or otherwise. A large number of [static analysis tools](https://github.com/analysis-tools-dev/static-analysis) can help to make this process more comprehensive, or faster, but should be used in combination with human inspection, not as a replacement. 
+
 If a vulnerability is identified in your project you should follow general practices for dealing with the issue, and the specific security and mitigation policies in your team or organisation. If your code is, or is likely to become open source, there are further [security considerations](https://www.gov.uk/government/publications/open-source-guidance/security-considerations-when-coding-in-the-open) to be made. In brief:
 
 * Open your code early so that you can implement best development practice (as above) and address issues as you go along. Security through obscurity, (i.e., keeping your code closed) is [considered insufficient by security experts](https://mojdigital.blog.gov.uk/2017/02/21/why-we-code-in-the-open/)
@@ -283,7 +285,8 @@ If a vulnerability is identified in your project you should follow general pract
 
 * Deal with security vulnerabilities quickly
 
-Keys, credentials and secrets that allow for access to data or parts of a system otherwise Secured must be kept Closed and separate from code, as part of a system that allows them to be changed, rotated or revoked easily and thoroughly.
+Keys, credentials and secrets that allow for access to data or parts of a system otherwise Secured must be kept Closed and separate from code, as part of a system that allows them to be changed, rotated or revoked easily and thoroughly. 
+ 
 
 The [Central Digital and Data Office](https://www.gov.uk/government/organisations/central-digital-and-data-office) suggests the following timelines for dealing with vulnerabilities:
 
@@ -292,6 +295,10 @@ The [Central Digital and Data Office](https://www.gov.uk/government/organisation
 * If publicly disclosed, consider whether you need to make an emergency fix. Review the vulnerable parts of the system to check for inconsistencies to determine whether the vulnerability has been exploited
 
 * If you’re given private information about a vulnerability that affects others, it might be appropriate to make the fix privately, deploy from a private repository and merge back into the public one when safe to do so. This will avoid putting other teams or systems at risk by leaking the information before it is made public
+
+These points are largely concerned with writing and publishing open source code, but many projects (including proprietary products) also consume open source components authored by others. Keeping an inventory of the components that your projects utilise, and ensuring that they're appropriate and up to date, are essential parts of best practice for any project. Security requirements make these steps a necessary part of a team's internal code review.
+
+Using open source components allows technical teams (internal or commissioned) to go several steps further: checking for public vulnerabilities, absorbing relevant community or commercial discussion and intelligence, and conducting code-level [security review](https://www.microsoft.com/en-us/securityengineering/opensource?activetab=security+analysis%3aprimaryr3) where necessary. Again, static analysis tools can be a useful addition to in-house review.  
 
 
 ### i. Maintenance
@@ -347,8 +354,8 @@ README files should clearly indicate if a decision has been made to cease mainte
 | Does the code include business sensitive algorithms (e.g. fraud detection)? | **Mandatory** check *(if any identified then see section on dealing with sensitive data in code below)* |
 | Has written permission been obtained for any data stored from the data owner? | **Mandatory** to obtain | 
 | Are any data transfers conducted safely and securely? (see third-party tools point below) | **Mandatory** check | 
-| Are any credentials contained in the source Code? | **Mandatory** check in both current version and git history *(see git history guidance if so)* |
-| Are any secret keys contained in the source Code? | **Mandatory** check in both current version and git history *(see git history guidance if so)* | 
+| Are any credentials contained in the source code? | **Mandatory** check in both current version and git history *(see git history guidance if so)* |
+| Are any secret keys contained in the source code? | **Mandatory** check in both current version and git history *(see git history guidance if so)* | 
 | Are the commit messages informative? | Best practice. If not consider additional documentation to highlight major commit messages | 
 | Do the commit messages include any sensitive information (e.g. names)? | **Mandatory** check *(see git history guidance if so)* |
 | Does the git history contain any sensitive information (e.g. at one time real data or credentials were in the code but have since been removed) | **Mandatory** check *(see git history guidance if so)* |
