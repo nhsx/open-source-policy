@@ -125,7 +125,9 @@ The rest of this section details processes and practices that should be in place
 
 These requirements can be seen as headers for each section in Appendix B's checklist for open source. 
 
-**All new code should be hosted in an account owned by the commissioning organisation, unit, or community to ensure ongoing management and accountability.** As projects change scale or ownership they can be forked or copied as appropriate.
+**All new code should be hosted in an account owned by the commissioning organisation, unit, or community to ensure ongoing management and accountability.** As projects change scale or ownership they can be forked or copied as appropriate. 
+
+A repository management scheme that defines whether your organisation stores Coded In The Open, Open, and Closed code in common or separate repositories, and how code should move between those structures, is best practice. Some organisations may wish to keep Open code one or more versions behind Closed code, but doing so requires a robust versioning and repository management approach.
 
 ### b. Readmes
 
@@ -340,9 +342,7 @@ This ensures that there is no conflict between this policy and commercialisation
 ![Open Contribution Process](images/open-contribution-process.png)
   
  
-## Appendix B: Open source checklist
-
-  
+## Appendix B: Open source checklist  
 
 ***When publishing your code you need to make sure:***
   
@@ -355,6 +355,7 @@ This ensures that there is no conflict between this policy and commercialisation
 | Who has responsibility for ongoing support and communications for the code?|Best practice to assign|
 | Have [contribution guidelines](https://github.com/alphagov/govuk-frontend/blob/master/CONTRIBUTING.md) or [PR style guides](https://github.com/alphagov/styleguides/blob/master/pull-requests.md) been included? |Best practice to include|
 | Who will address identified issues and security concerns? |**Mandatory** check|
+| Has a responsible disclosure process for security issues been defined? |**Mandatory** check|
 |||
 | **You do not release information that should remain closed** | |
 | Does the code include any sensitive, personal, secret or top secret data/information? | **Mandatory** check *(if any identified then see section on dealing with sensitive data in code below)* <br />:white_large_square: No sensitive data <br />:white_large_square: Sensitive <br />:white_large_square: Personal <br />:white_large_square: Secret <br />:white_large_square: Top secret | 
@@ -373,10 +374,10 @@ This ensures that there is no conflict between this policy and commercialisation
 |Is the code stored in your organisational GitHub account? Is it the same organisation that funds the relevant staff time? | Best practice to ensure | 
 |||
 |**Any third-party tools you use to host or manage your code follow the National Cyber Security Centre’s cloud security guidance**||
-| Are third party tools used within the code? | **Mandatory** check |
+| Are third party tools used within the code? | **Mandatory** check. Best practice is to keep an inventory |
 | If so do they adhere to the NCSC's [Cloud Security Principles](https://www.ncsc.gov.uk/collection/cloud-security/implementing-the-cloud-security-principles)?| **Mandatory** check |
 |||
 | **An internal code review has been completed** ||
-| Has a colleague reviewed the code for sensitive data content and security vulnerabilities? |**Mandatory** action|  
+| Has a colleague reviewed the code for sensitive data content and security vulnerabilities? |**Mandatory** action. Includes third party components. Best practice is to record automated code quality and security tools used |  
 
 *This documentation is [© Crown copyright](http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/) and available under the terms of the [Open Government 3.0 licence](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)*.
