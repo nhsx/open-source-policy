@@ -72,9 +72,10 @@ By default, all new code should be open source. But what does this mean, and wha
 
 **New projects should start at the top of this list, and justify their exception downwards as part of the NHS digital and technology approval process** under the follow-up questions to “Have you evaluated potential open-source options?”. The rules above may be applied at the project level or, where it is sensible to do so, separately for individual components or packages.
 
+
 ### Coded In the Open
 
-It is much easier to [write your code in the open](https://gds.blog.gov.uk/2012/10/12/coding-in-the-open/) from the beginning of a project than it is to open an existing repository later, and most code should be made open source from the very start of a project. This is especially the case for general research, analysis or innovation projects where the teams involved are well placed to apply best practice from day one, or where code is commissioned from technically skilled providers. 
+It is much easier to [write your code in the open](https://gds.blog.gov.uk/2012/10/12/coding-in-the-open/) from the beginning of a project than it is to open an existing repository later, and most code should be made open source from the very start of a project. This is especially the case for general research, analysis or innovation projects where the teams involved are well placed to apply best practice progressively or from day one, or where code is commissioned from technically skilled providers. 
 
 ### Open Source
 
@@ -106,6 +107,8 @@ Some code cannot be opened at any time, almost always due to a specific and expl
 ## 4. How to open source code
 
 Although the idea of open sourcing code may at first appear intimidating, this document outlines the nine steps that are necessary. The following components turn common coding standards into best practice, helping to ensure that the code produced within and for the NHS fully supports our Commitments and Values. Many examples of best practice are available (and linked throughout) at [local,](https://github.com/yorkshire-and-humber-care-record/fhir-appliance) [national](https://github.com/QCovid/QCovid), and [global](https://github.com/gerddie/ginkgocadx) scale.
+
+The open source checklist at the end of this document clarifies where the requirements detailed in this document are mandatory, or best practice that can be progressively adopted for experimental research or sample applications. 
 
 ### a. Repositories
 
