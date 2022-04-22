@@ -92,7 +92,9 @@ Closed code may be held in private repositories or on platforms that are otherwi
 
 In the first case, projects must never have keys, credentials and secrets (always Closed) in source code (Open), storing them separately and only accessible by authorised staff. It must be possible for them to be easily and thoroughly changed, rotated or revoked.
 
-In the second case, projects must still develop Closed code as if it’s already open, following good development and security practices. Project managers should decide on when code will be made open, which (by default), should be six months after release (in the case of code relevant to official statistics) or less. Once opened, projects should remain so. If specific parts of a project must be kept from public view due to legislative requirement (as with changes to the formulation of some official statistics) they can be forked into a private instance and merged back into the public repo at the earliest opportunity.
+In the second case, the relevant policy, business or statistical oversight mechanisms, including permissions from government authorities (such as the Secretary of State), take precendence. Nonetheless, projects must still develop Closed code as if it’s already open, following good development and security practices. Project managers should decide on when code will be made open. The default 'cooling off' period should be six months after release or less, with longer periods (up to nine months) reserved for code relevant to official statistics or highly commercially sensitive work.
+
+Once opened, projects should remain so. If specific parts of a project must be kept from public view due to legislative requirement (as with changes to the formulation of some official statistics) they can be forked into a private instance and merged back into the public repo at the earliest opportunity. 
 
 In all three cases (and for all four categories of code), projects should still follow best practice, common standards, and broader guidance.
 
@@ -309,6 +311,12 @@ README files should clearly indicate if a decision has been made to cease mainte
   
 
 ## 5. Working with the NHS
+
+The NHS partners with a wide variety of organisations and individuals to deliver its technology, including nation-wide funders, companies of various sizes, universities and colleges, and NGOs. The NHS Open Source Policy strictly applies to work that is produced or commissioned by the NHS, which is to say, where staff or services are provided through NHS contract, but in practice those boundaries are frequently complex.
+
+Even where research is funded entirely publicly, the commercialisation of code is often an important part of its longer term viability. In many cases where commercialisation is a concern the detail in previous sections can be combined to provide sensible cover. Code may remain Closed for the duration of its production or commissioning, and for up to nine months after that period has ceased. At which point code can be published under a license that prevents commercial re-use (i.e., GPLv3). This ensures that organisations and companies enjoy a cooling off period, but also that they retain commercial rights to their code. Anyone using that code for a derivative work must then either provide it free of charge or demonstrate that it is different enough, with a substantial amount of new material, to not breach copyright law. Where code is not being used for a commercial purpose within the cooling off period, it is expected that code will be published through MIT or APLv2 instead. 
+
+This ensures that there is no conflict between this policy and commercialisation agreements between funders and providers, who will continue to have sole or joint commercialisation rights over funded products and services. It also provides a form of anti-shelving mechanism, where providers are encouraged to continue the development of their work. As components fall out of active development, they will fall increasingly into the public domain. 
 
 [for development through consultation]
 
