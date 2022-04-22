@@ -2,6 +2,8 @@
 
 **NHS Open Source Policy will become officially available in Summer 2022**
 
+**Current status: DRAFT**
+
 You can find the current live draft of the Open Source Policy at: [open-source-policy.md](https://github.com/nhsx/open-source-policy/blob/main/open-source-policy.md). This is the home for all associated policy development, and will be updated frequently in response to subject matter, expert feedback and public comment. It is under active development and should be treated as a live and living record. Even after policy release, the intention is that this document continues to change to inform future updates.
 
 Contributors should be aware that this document is FOIable, effectively a public archive, and comments should be treated as permanent. Please ensure that you follow the [NHS Values](https://www.hee.nhs.uk/about/our-values/nhs-constitutional-values-hub-0) at all times.
