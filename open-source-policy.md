@@ -321,7 +321,7 @@ The NHS partners with a wide variety of organisations and individuals to deliver
 
 Even where research is funded entirely publicly, the commercialisation of code is often an important part of its longer term viability. In many cases where commercialisation is a concern the detail in previous sections can be combined to provide sensible cover. Code may remain Closed for the duration of its production or commissioning, and then throughout the relevant cooling off period afterwards. At which point code can be published under a license that prevents proprietary re-use (i.e., GPLv3). Anyone using that code for a derivative work must then either provide the relevant code free of charge or demonstrate that it is different enough, with a substantial amount of new material, to not breach copyright law. GPLv3 does not forbid commercial re-use, but its requirements do make resale and origin transparent. Where code is not being used for a proprietary purpose within the cooling off period, it is expected that code will be published through MIT or APLv2 instead.
 
-### Commissioning Research
+### Commissioned and Funded Research
 
 Where work is produced under NHS contract but funded by research councils or central government funders this policy continues to apply with one exception: where central government consent processes are relevant ([including for commercialisation](https://www.nihr.ac.uk/documents/intellectual-property-and-commercialisation-guidance/12260)), the consent process takes priority. This policy is not intended to interfere with that process. 
 
