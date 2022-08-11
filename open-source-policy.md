@@ -330,12 +330,11 @@ Even where research is funded entirely publicly, the commercialisation of code i
 
 ### Commissioning Research
 
-  
+Where work is produced under NHS contract but funded by research councils or central government funders this policy continues to apply with one exception: where central government consent processes are relevant ([including for commercialisation](https://www.nihr.ac.uk/documents/intellectual-property-and-commercialisation-guidance/12260)), the consent process takes priority. This policy is not intended to interfere with that process. 
   
 
 ##
 
-  
   
 
 ## Appendix A: Open contribution process
