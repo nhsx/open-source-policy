@@ -6,7 +6,7 @@ One such challenge is the lack of a single position and source of guidance for t
 
 This document may refer to but does not cover policy on [when to produce or procure](https://nhsengland.github.io/it-standards/#/application-development/common-dev/readme) code in general, [engineering principles](https://github.com/NHSDigital/software-engineering-quality-framework/blob/main/principles.md), [information standards](https://digital.nhs.uk/data-and-information/information-standards/information-standards-and-data-collections-including-extractions/publications-and-notifications/standards-and-collections), [open data](https://digital.nhs.uk/services/supporting-open-data-and-transparency), or open [standards](https://www.gov.uk/government/publications/open-standards-principles/open-standards-principles), which can all be found elsewhere. As part of our broader [standards and interoperability work](https://www.nhsx.nhs.uk/key-tools-and-info/standards-and-interoperability/) it provides necessary context, conduct and assurance requirements for open publication, without replacing [broader guidance on digital and data driven technologies.](https://www.gov.uk/government/publications/code-of-conduct-for-data-driven-health-and-care-technology/initial-code-of-conduct-for-data-driven-health-and-care-technology)
 
-In brief, NHS Open Source Policy requires that:
+In brief, NHS Open Source Policy applies where work is supported by NHS funding or staff time, and requires that:
 * All efforts are made to never solve the same problem twice. All new source code that we produce or commission should be open and reusable by default: such that anyone can freely access, use, modify, and share the relevant code for any purpose;
 
 * New projects justify their exception from open source publishing as part of the NHS digital and technology approval process, marking their projects as Coded In The Open, Open Source, Closed or Secured;
@@ -60,7 +60,7 @@ Programmers across the NHS frequently use existing open source packages and modu
   
 ## 3. When code should be open or closed
 
-By default, all new code should be open source. But what does this mean, and what are the exceptions to this general rule? All new code should be:
+By default, all new code funded by the NHS or supported by NHS staff should be open source. But what does this mean, and what are the exceptions to this general rule? All new code should be:
 
 * **Coded In The Open**
 
