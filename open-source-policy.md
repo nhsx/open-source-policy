@@ -179,7 +179,7 @@ In the case of a Class I Medical Device, appropriate text may read:
 
 ### d. Contribution and community guidelines
 
-**All repositories should have clear guidelines on how to contribute to their code**. Specific projects may also need guidelines by exception. The GitHub Docs [Contribution Guide](https://github.com/github/docs/blob/main/CONTRIBUTING.md) is a short and general example, while [NHS Digital’s Contributors Guide](https://github.com/NHSDigital/software-engineering-quality-framework/blob/main/.github/CONTRIBUTING.md) is more specific and more concise. GitHub repository guidelines should cover:
+**All repositories should have clear guidelines on how to contribute to their code**. Specific projects may also need guidelines by exception. The GitHub Docs [Contribution Guide](https://github.com/github/docs/blob/main/CONTRIBUTING.md) is a short and general example, while [NHS Digital’s Contributors Guide](https://github.com/NHSDigital/software-engineering-quality-framework/blob/main/CONTRIBUTING.md) is more specific and more concise. GitHub repository guidelines should cover:
 
 * Whether a repository/project is accepting contributions
 
