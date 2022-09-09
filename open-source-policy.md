@@ -330,7 +330,7 @@ Where work is produced under NHS contract but funded by research councils or cen
 
 ## Appendix A: Open contribution process
 
-![Open Contribution Process](images/open-contribution-process.png)
+![A flowchart detailing the Open Contribution Process.](images/open-contribution-process.png)
   
  
 ## Appendix B: Open source checklist  
