@@ -8,7 +8,7 @@ You can find the current live version of the Open Source Policy at: [open-source
 
 Contributors should be aware that this document is FOIable, effectively a public archive, and comments should be treated as permanent. Please ensure that you follow the [NHS Values](https://www.hee.nhs.uk/about/our-values/nhs-constitutional-values-hub-0) at all times.
 
-Contributors wishing to comment or suggest changes outside of Github can write to: [andrew.harding@nhsx.nhs.uk](mailto:andrew.harding@nhsx.nhs.uk)
+Contributors wishing to comment or suggest changes outside of GitHub can write to: [andrew.harding@nhsx.nhs.uk](mailto:andrew.harding@nhsx.nhs.uk)
 
 Templates for many of the requirements mentioned in open-source-policy.md will be made available in this repository over the next 12 months.
   
