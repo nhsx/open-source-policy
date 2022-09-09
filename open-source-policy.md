@@ -40,11 +40,11 @@ Commitments for the adoption of open source code are available in multiple artic
 
 * The forthcoming NHS [Data Strategy](https://docs.google.com/document/d/1u7V9iOE80rVzO7P-_pDFBs42p2l14stpa8pIJHYyvkk/edit) “Data saves lives: reshaping health and social care with data”, which contains two relevant commitments on making code that we produce open and reusable. The first of which states: “**We will begin to make all new source code that we produce or commission open and reusable by default** (with clear exceptions) and publish it under appropriate licences to encourage further innovation (such as MIT and OGLv3, alongside suitable open datasets or dummy data) (December 2021). Subject to consultation, the relevant policies will also aim to be open and reusable”;
 
-* The [Future of healthcare: our vision for digital, data and technology in health and care](https://www.gov.uk/government/publications/the-future-of-healthcare-our-vision-for-digital-data-and-technology-in-health-and-care/the-future-of-healthcare-our-vision-for-digital-data-and-technology-in-health-and-care) speaks to interoperability and openness (around standards, culture, technology, and code) as one of it’s four guiding principles;
+* [The future of healthcare: our vision for digital, data and technology in health and care](https://www.gov.uk/government/publications/the-future-of-healthcare-our-vision-for-digital-data-and-technology-in-health-and-care/the-future-of-healthcare-our-vision-for-digital-data-and-technology-in-health-and-care) speaks to interoperability and openness (around standards, culture, technology, and code) as one of its four guiding principles;
 
-* The [GDS service manual](https://www.gov.uk/service-manual/technology/making-source-code-open-and-reusable), which states “When you create new source code, you must make it open so that other developers (including those outside government) can: benefit from your work and build on it; learn from your experiences; find uses for your code which you had not found”. The [12th service standard ](https://www.gov.uk/service-manual/service-standard/point-12-make-new-source-code-open)goes further, to suggest that developers: “write code in the open from the start, and publish it in an open repository - minus any sensitive information, like secret keys and credentials” and “keep ownership of the intellectual property of new source code that’s created as part of the service, and make it available for reuse under an open licence”. That text is directly reproduced in the [12th NHS service standard](https://service-manual.nhs.uk/service-standard/12-make-new-source-code-open);
+* The [GDS Service Manual](https://www.gov.uk/service-manual/technology/making-source-code-open-and-reusable), which states “When you create new source code, you must make it open so that other developers (including those outside government) can: benefit from your work and build on it; learn from your experiences; find uses for your code which you had not found”. The [12th service standard ](https://www.gov.uk/service-manual/service-standard/point-12-make-new-source-code-open)goes further, to suggest that developers: “write code in the open from the start, and publish it in an open repository - minus any sensitive information, like secret keys and credentials” and “keep ownership of the intellectual property of new source code that’s created as part of the service, and make it available for reuse under an open licence”. That text is directly reproduced in the [12th NHS service standard](https://service-manual.nhs.uk/service-standard/12-make-new-source-code-open);
 
-* The government [Technology code of Practice](https://www.gov.uk/guidance/be-open-and-use-open-source) states that “your plans must show you’ve considered using open source and publishing your code openly”, requiring “equal consideration to be given to open source solutions when procuring software”.
+* The government [Technology Code of Practice](https://www.gov.uk/guidance/be-open-and-use-open-source) states that “your plans must show you’ve considered using open source and publishing your code openly”, requiring “equal consideration to be given to open source solutions when procuring software”.
 
 These commitments are not without resource implications. This document will help teams understand the practical requirements of openly publishing their code ahead of time, so that they can anticipate staffing needs and factor them into procurement and provision.
 
@@ -53,7 +53,7 @@ These commitments are not without resource implications. This document will help
 
 At its most simple, open source code consists of lines of programming code in any language, and a permissive open licence that governs the legal conditions under which the code is provided. Open source code is specifically provided under a licence that means **anyone can freely access, use, modify, and share the relevant code for any purpose**. It means that regardless of who produced it, anyone can contribute to its further development or use it for their own means without paying a licensing fee, or seeking permission from the contributors.
 
-For more on precise terms, see the Open Knowledge Foundation’s [Open Definition](http://opendefinition.org/od/2.1/en/).
+For more on precise terms, see the Open Knowledge Foundation’s [Open Definition](https://opendefinition.org/od/2.1/en/).
 
 Programmers across the NHS frequently use existing open source packages and modules in their work, especially for routine data [analysis](https://pandas.pydata.org/) or [processing](https://hadoop.apache.org/), or for mobile development (as [part of the NHS App](https://www.nhs.uk/nhs-app/nhs-app-legal-and-cookies/nhs-app-open-source-licences/), for instance). They should be encouraged to do so when creation of a bespoke solution would be unnecessarily burdensome.
 
@@ -112,7 +112,7 @@ The open source checklist at the end of this document clarifies where the requir
 
 ### a. Repositories
 
-Most open source code is published in a repository, a form of internet hosting that allows for limited or broad access. Many developers and analysts choose to publish their code through language specific platforms, like the[ Python Package Index](https://pypi.org/) or the [Comprehensive R Archive Network](https://cran.r-project.org/), as well as more general platforms like [GitHub](https://github.com/).
+Most open source code is published in a repository, a form of internet hosting that allows for limited or broad access. Many developers and analysts choose to publish their code through language specific platforms, like the [Python Package Index](https://pypi.org/) or the [Comprehensive R Archive Network](https://cran.r-project.org/), as well as more general platforms like [GitHub](https://github.com/).
 
   **GitHub is our preferred platform for publishing open source code**. NHS [England and Improvement](https://github.com/nhsengland), [Digital](https://github.com/nhsdigital/) and [X](https://github.com/nhsx/) all have GitHub accounts, as do many NHS trusts and units across England, [Public Health Scotland](https://github.com/Public-Health-Scotland) and [Digital Health and Care Wales](https://github.com/nwisbeta). The [GDS](https://github.com/alphagov) make all their code available through that platform, with 1.5 thousand public repositories.
 
@@ -179,7 +179,7 @@ In the case of a Class I Medical Device, appropriate text may read:
 
 ### d. Contribution and community guidelines
 
-**All repositories should have clear guidelines on how to contribute to their code**. Specific projects may also need guidelines by exception. The GitHub Docs [Contribution Guide](https://github.com/github/docs/blob/main/CONTRIBUTING.md) is a short and general example, while [NHS Digital’s Contributors Guide](https://github.com/NHSDigital/software-engineering-quality-framework/blob/main/.github/CONTRIBUTING.md) is more specific and more concise. GitHub repository guidelines should cover:
+**All repositories should have clear guidelines on how to contribute to their code**. Specific projects may also need guidelines by exception. The GitHub Docs [Contribution Guide](https://github.com/github/docs/blob/main/CONTRIBUTING.md) is a short and general example, while [NHS Digital’s Contributors Guide](https://github.com/NHSDigital/software-engineering-quality-framework/blob/main/CONTRIBUTING.md) is more specific and more concise. GitHub repository guidelines should cover:
 
 * Whether a repository/project is accepting contributions
 
@@ -215,7 +215,7 @@ As above, **a contact email address and a responsible member of staff are necess
 
 **As with all code produced by the NHS, open source code must adhere to [best practice](https://www.gov.uk/government/publications/code-of-conduct-for-data-driven-health-and-care-technology/initial-code-of-conduct-for-data-driven-health-and-care-technology) and [common standards](https://nhsengland.github.io/it-standards/#/application-development/common-dev/readme).** The assurance requirements for open source code are by necessity higher than for closed code (with documentation and informative comments developed from the very start of a project) but are not more burdensome than standard best practice. A checklist is included in Appendix B and automated tools are available to help with some of the relevant steps. This checklist should help projects create high quality, secure code that clearly fits within one of the four categories in Section 3. Documenting each step will also help projects with orgqanisational assurance processes and submissions to technical review groups. 
 
-In addition to regular[ quality tests](https://github.com/NHSDigital/software-engineering-quality-framework/blob/main/quality-checks.md), **an [internal](https://github.com/NHSDigital/software-engineering-quality-framework/blob/main/patterns/everything-as-code.md#code-review) [code review](https://github.com/NHSDigital/rap-community-of-practice/blob/main/development-approach/09_code-review.md) should be conducted for all open source projects** before publication, and should cover:
+In addition to regular [quality tests](https://github.com/NHSDigital/software-engineering-quality-framework/blob/main/quality-checks.md), **an [internal](https://github.com/NHSDigital/software-engineering-quality-framework/blob/main/patterns/everything-as-code.md#code-review) [code review](https://github.com/NHSDigital/rap-community-of-practice/blob/main/development-approach/09_code-review.md) should be conducted for all open source projects** before publication, and should cover:
 
 * Exclusion of sensitive, personal, secret or top secret data
 
@@ -325,12 +325,12 @@ Even where research is funded entirely publicly, the commercialisation of code i
 
 Where work is produced under NHS contract but funded by research councils or central government funders this policy continues to apply with one exception: where central government consent processes are relevant ([including for commercialisation](https://www.nihr.ac.uk/documents/intellectual-property-and-commercialisation-guidance/12260)), the consent process takes priority. This policy is not intended to interfere with that process, and it's worth noting that none of the licences recommended here preclude commercialisation. 
 
-##
+***
   
 
 ## Appendix A: Open contribution process
 
-![Open Contribution Process](images/open-contribution-process.png)
+![A flowchart detailing the Open Contribution Process.](images/open-contribution-process.png)
   
  
 ## Appendix B: Open source checklist  
@@ -371,4 +371,4 @@ Where work is produced under NHS contract but funded by research councils or cen
 | **An internal code review has been completed** ||
 | Has a colleague reviewed the code for sensitive data content and security vulnerabilities? |**Mandatory** action. Includes third party components. Best practice is to record automated code quality and security tools used |  
 
-*This documentation is [© Crown copyright](http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/) and available under the terms of the [Open Government 3.0 licence](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)*.
+*This documentation is [© Crown copyright](https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/) and available under the terms of the [Open Government 3.0 licence](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)*.
