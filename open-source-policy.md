@@ -53,7 +53,7 @@ These commitments are not without resource implications. This document will help
 
 At its most simple, open source code consists of lines of programming code in any language, and a permissive open licence that governs the legal conditions under which the code is provided. Open source code is specifically provided under a licence that means **anyone can freely access, use, modify, and share the relevant code for any purpose**. It means that regardless of who produced it, anyone can contribute to its further development or use it for their own means without paying a licensing fee, or seeking permission from the contributors.
 
-For more on precise terms, see the Open Knowledge Foundation’s [Open Definition](http://opendefinition.org/od/2.1/en/).
+For more on precise terms, see the Open Knowledge Foundation’s [Open Definition](https://opendefinition.org/od/2.1/en/).
 
 Programmers across the NHS frequently use existing open source packages and modules in their work, especially for routine data [analysis](https://pandas.pydata.org/) or [processing](https://hadoop.apache.org/), or for mobile development (as [part of the NHS App](https://www.nhs.uk/nhs-app/nhs-app-legal-and-cookies/nhs-app-open-source-licences/), for instance). They should be encouraged to do so when creation of a bespoke solution would be unnecessarily burdensome.
 
@@ -371,4 +371,4 @@ Where work is produced under NHS contract but funded by research councils or cen
 | **An internal code review has been completed** ||
 | Has a colleague reviewed the code for sensitive data content and security vulnerabilities? |**Mandatory** action. Includes third party components. Best practice is to record automated code quality and security tools used |  
 
-*This documentation is [© Crown copyright](http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/) and available under the terms of the [Open Government 3.0 licence](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)*.
+*This documentation is [© Crown copyright](https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/) and available under the terms of the [Open Government 3.0 licence](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)*.
